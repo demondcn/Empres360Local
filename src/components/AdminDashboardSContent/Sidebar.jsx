@@ -32,11 +32,11 @@ const Sidebar = ({ onSelectSection }) => {
         <Button variant="ghost" className="w-full justify-start mb-2 text-white hover:bg-[#2C5234] nav-button" onClick={() => router.push('/InicioSeccion/admin/DiagnAd')}>
           <FileText className="mr-2 h-4 w-4" /> Diagnósticos
         </Button>
+        <Button variant="ghost" className="w-full justify-start mb-2 text-white hover:bg-[#2C5234] nav-button" onClick={() => router.push('/InicioSeccion/admin/SoportAd')}>
+          <Bell className="mr-2 h-4 w-4" /> Empresas
+        </Button>
         <Button variant="ghost" className="w-full justify-start mb-2 text-white hover:bg-[#2C5234] nav-button" onClick={() => router.push('/InicioSeccion/admin/AnalisisAd')}>
           <PieChart className="mr-2 h-4 w-4" /> Análisis
-        </Button>
-        <Button variant="ghost" className="w-full justify-start mb-2 text-white hover:bg-[#2C5234] nav-button" onClick={() => router.push('/InicioSeccion/admin/SoportAd')}>
-          <Bell className="mr-2 h-4 w-4" /> Notificaciones
         </Button>
         <Button variant="ghost" className="w-full justify-start mb-2 text-white hover:bg-[#2C5234] nav-button" onClick={() => router.push('/InicioSeccion/admin/ExportAd')}>
           <FileOutput className="mr-2 h-4 w-4" /> Informes
